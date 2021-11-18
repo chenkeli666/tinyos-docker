@@ -6,19 +6,27 @@
 
 2. clone this repo
 
-    git clone https://gitee.com/osennyaya/tinyos-docker.git
+```
+git clone https://gitee.com/osennyaya/tinyos-docker.git
+```
 
 3. build the docker image
 
-    cd tinyos-docker && docker build . -t tinyos
+```
+cd tinyos-docker && docker build . -t tinyos
+```
 
 4. run the image.
 
-    docker run -it --rm tinyos
+```
+docker run -it --rm tinyos
+```
 
 5. build the app
 
-    # run the following commands in the docker container
-    # that you have entered in step 4.
-    cd tinyos/app/Blink
-    make micaz sim
+```
+# run the following commands in the docker container
+# that you have entered in step 4.
+cd tinyos/app/Blink
+make micaz sim
+```
