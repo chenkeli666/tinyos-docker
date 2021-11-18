@@ -16,11 +16,17 @@ git clone https://gitee.com/osennyaya/tinyos-docker.git
 cd tinyos-docker && docker build . -t tinyos
 ```
 
+Step 1-3 **should only be done ONCE**
+
 4. run the image.
 
 ```
 docker run -it --rm tinyos
 ```
+
+If you want to restart the container after exiting, repeat 
+**only step4** and DON'T do step1-3 again. unless you know 
+what you're doing.
 
 5. build the app
 
