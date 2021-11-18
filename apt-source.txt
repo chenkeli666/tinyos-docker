@@ -1,0 +1,2 @@
+# TinyOS Repository   
+deb http://tinyos.stanford.edu/tinyos/dists/ubuntu lucid main
