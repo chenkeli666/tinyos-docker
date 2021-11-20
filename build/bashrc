@@ -1,7 +1,7 @@
 # Start TinyOS environment pathing   
-export TOSROOT=/opt/tinyos-2.1.2   
-export TOSDIR=$TOSROOT/tos   
-export CLASSPATH=$TOSROOT/support/sdk/java/tinyos.jar:.$CLASSPATH   
-export MAKERULES=$TOSROOT/support/make/Makerules
-export PATH=/opt/msp430/bin:$PATH   
+export TOSROOT="/opt/tinyos-2.1.2"
+export TOSDIR="$TOSROOT/tos"
+export CLASSPATH="$TOSROOT/support/sdk/java/tinyos.jar:.$CLASSPATH"
+export MAKERULES="$TOSROOT/support/make/Makerules"
+export PATH="/opt/msp430/bin:$PATH"
 source /opt/tinyos-2.1.2/tinyos.sh
