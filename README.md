@@ -33,6 +33,6 @@ what you're doing.
 ```
 # run the following commands in the docker container
 # that you have entered in step 4.
-cd tinyos/app/Blink
+cd tinyos/apps/Blink
 make micaz sim
 ```
