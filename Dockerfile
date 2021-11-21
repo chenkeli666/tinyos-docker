@@ -5,6 +5,7 @@ RUN cat build/apt-source.txt >> /etc/apt/sources.list \
 	&& apt update \
 	&& apt install -y --force-yes tinyos-2.1.2 vim make gcc g++ python2.7 python2.7-dev
 SHELL ["/bin/bash", "-c"]
+RUN sed -i 's/\r//g' build/*
 RUN cat build/bashrc >> /root/.bashrc \
 	&& cp build/tinyos.sh /opt/tinyos-2.1.2/ \
 	&& source build/bashrc \
