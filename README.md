@@ -7,7 +7,7 @@
 2. clone this repo
 
 ```
-git clone https://gitee.com/osennyaya/tinyos-docker.git
+git clone https://github.com/chenkeli666/tinyos-docker.git
 ```
 
 3. build the docker image
