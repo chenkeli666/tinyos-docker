@@ -1,4 +1,4 @@
-# Ubuntu-14.04 TinyOS
+TinyOS
 
 1. Install git and docker-win && add your user to docker group
 
