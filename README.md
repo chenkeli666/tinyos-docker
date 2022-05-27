@@ -1,6 +1,6 @@
 # Ubuntu-14.04 TinyOS
 
-1. Install docker && add your user to docker group
+1. Install git and docker-win && add your user to docker group
 
     [Get Docker](https://docs.docker.com/get-docker/)
 
